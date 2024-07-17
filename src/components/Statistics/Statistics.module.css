@@ -1,0 +1,59 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.stats__title {
+  padding: 20px 0;
+}
+
+.stats__list {
+  display: flex;
+}
+
+.stats__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: blueviolet;
+  width: 35px;
+}
+
+.stat__label {
+  font-size: 10px;
+}
+
+.stat-blue {
+  composes: stats__item;
+  background-color: rgb(94, 94, 239);
+}
+
+.stat-purple {
+  composes: stats__item;
+  background-color: rgb(227, 148, 227);
+}
+
+.stat-turquoise {
+  composes: stats__item;
+  background-color: rgb(130, 243, 231);
+}
+
+.stat-red {
+  composes: stats__item;
+  background-color: rgb(237, 96, 96);
+}
+
+.stat-green {
+  composes: stats__item;
+  background-color: rgb(157, 255, 157);
+}
+
+.stat-toxic {
+  composes: stats__item;
+  background-color: rgb(11, 255, 11);
+}
